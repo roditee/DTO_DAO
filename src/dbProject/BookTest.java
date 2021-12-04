@@ -32,5 +32,7 @@ public class BookTest {
 		
 		bookDAO.insertBook(bookDTO);
 		bookDAO.selectBook();
+		
+		sc.close();
 	}
 }
